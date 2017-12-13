@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <SearchView
+            android:background="#ffffff"
+            android:id="@+id/edit_word"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:hint="请输入单词"/>
+
+        <!--<SearchView
+            android:id="@+id/edit_word"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="18"
+            android:hint="请输入单词"
+            android:textColor="@color/colorPrimary" />-->
+
+    </TableRow>
+
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/text"/>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/tv_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:id="@+id/tv_ps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_pron_en"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/laba_3"
+            android:visibility="invisible" />
+    </TableRow>
+
+
+
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:id="@+id/tv_cog_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:id="@+id/tv_acceptation_1"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:id="@+id/tv_cog_2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:id="@+id/tv_acceptation_2"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv_cog_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_acceptation_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="6"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv_orig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_trans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+    </TableLayout>
+
+    <!--<Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加入单词本"/>-->
+
+
+    <Button
+        android:id="@+id/create_database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="建立数据库"/>
+
+    <Button
+        android:id="@+id/add_database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"/>
+</LinearLayout>
